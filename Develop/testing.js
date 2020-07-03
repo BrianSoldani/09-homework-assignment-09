@@ -57,7 +57,7 @@ inquirer
       },
       {
         type: "input",
-        message: "Image path to the deployed application? (Example: /assets/images/portfolio.jpg)",
+        message: "Image path to the deployed application? (Example: assets/images/portfolio.jpg",
         name: "image"
       },   
   ])
@@ -103,7 +103,7 @@ Be sure to run the following test(s): ${response.tests}
     
 ## Questions: 
     
-If you have any questions, please reach out to ${response.username} @ ${response.email}
+If you have any questions, please reach out to **${response.username}** @ ${response.email}
 
 ## Link: 
 
