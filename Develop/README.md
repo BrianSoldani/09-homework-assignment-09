@@ -38,7 +38,7 @@ Be sure to run the following test(s): npm test
     
 ## Questions: 
     
-If you have any questions, please reach out to ![GitHub Logo](/images/logo.png) **BrianSoldani** @ briansoldani@gmail.com
+If you have any questions, please reach out to ![GitHub Logo](:speech_balloon:) **BrianSoldani** @ briansoldani@gmail.com https://github.com/
 
 ## Link: 
 
