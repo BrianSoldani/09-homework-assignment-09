@@ -38,7 +38,7 @@ Be sure to run the following test(s): npm test
     
 ## Questions: 
     
-If you have any questions, please reach out to ![](:speech_balloon:) **https://github.com/BrianSoldani** @ briansoldani@gmail.com https://github.com/
+If you have any questions, please reach out to ![](:speech_balloon:) **<a href="https://github.com/BrianSoldani>BrianSoldani</a>** or email me here: briansoldani@gmail.com
 
 ## Link: 
 
