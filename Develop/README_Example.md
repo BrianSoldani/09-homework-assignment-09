@@ -1,8 +1,8 @@
-# README Generator
+# Readme Generator
     
 # Description: 
 
-yes
+It creates a readme file
     
 # Table of Contents: 
 
@@ -30,7 +30,7 @@ This project is licensed under the MIT license(s).
     
 ## Contributing: 
 
-undefined
+Nothing
     
 ## Tests: 
 
@@ -38,12 +38,12 @@ Be sure to run the following test(s): npm test
     
 ## Questions: 
     
-If you have any questions, please reach out to BrianSoldani @ brainsoldani@gmail.com
+If you have any questions, please reach out to BrianSoldani @ briansoldani@gmail.com
 
-## Link to deployed application: 
+## Link: 
 
-doesn matter
+yahoo.com
 
-## Image of deployed application:
+## Image:
 
 ![](/assets/images/portfolio.jpg)
