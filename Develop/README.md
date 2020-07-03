@@ -1,8 +1,8 @@
-# Readme Generator
+# README Generator
     
 # Description: 
 
-It creates a readme file
+It creates a readme file.
     
 # Table of Contents: 
 
@@ -38,11 +38,11 @@ Be sure to run the following test(s): npm test
     
 ## Questions: 
     
-If you have any questions, please reach out to BrianSoldani @ briansoldani@gmail.com
+If you have any questions, please reach out to **BrianSoldani** @ briansoldani@gmail.com
 
 ## Link: 
 
-yahoo.com
+homework.com
 
 ## Image:
 
