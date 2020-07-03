@@ -48,7 +48,7 @@ inquirer
       {
         type: "input",
         message: "What should the user know about contributing the repo?",
-        name: "contributions"
+        name: "contributing"
       }, 
       {
         type: "input",
@@ -105,11 +105,11 @@ Be sure to run the following test(s): ${response.tests}
     
 If you have any questions, please reach out to ${response.username} @ ${response.email}
 
-## Link to deployed application: 
+## Link: 
 
 ${response.link}
 
-## Image of deployed application:
+## Image:
 
 ![](${response.image})`
 
