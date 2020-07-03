@@ -46,4 +46,4 @@ yahoo.com
 
 ## Image:
 
-![](/assets/images/portfolio.jpg)
+![](assets/images/portfolio.jpg)
