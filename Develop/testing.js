@@ -49,7 +49,17 @@ inquirer
         type: "input",
         message: "What should the user know about contributing the repo?",
         name: "contributions"
-      },  
+      }, 
+      {
+        type: "input",
+        message: "What is the deployed application URL?",
+        name: "link"
+      },
+      {
+        type: "input",
+        message: "Image path to the deployed application? (Example: /assets/images/portfolio.jpg)",
+        name: "image"
+      },   
   ])
   .then(function (response) {
     const newFile = 
@@ -67,6 +77,9 @@ ${response.description}
 * [License](#license)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Link](#link)
+* [Image](#image)
+
     
 ## Installation: 
 
@@ -90,7 +103,15 @@ Be sure to run the following test(s): ${response.tests}
     
 ## Questions: 
     
-If you have any questions, please reach out to ${response.username} @ ${response.email}`
+If you have any questions, please reach out to ${response.username} @ ${response.email}
+
+## Link to deployed application: 
+
+${response.link}
+
+## Image of deployed application:
+
+![](${response.image})`
 
     fs.writeFile("README.md", newFile, function (err) {
       if (err) {

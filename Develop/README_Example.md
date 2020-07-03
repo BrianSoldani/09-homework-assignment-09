@@ -1,8 +1,8 @@
-# Readme generator
+# README Generator
     
 # Description: 
 
-it writes readme files for you.
+yes
     
 # Table of Contents: 
 
@@ -12,6 +12,9 @@ it writes readme files for you.
 * [License](#license)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Link](#link)
+* [Image](#image)
+
     
 ## Installation: 
 
@@ -19,7 +22,7 @@ To install the needed dependencies, please run the following command: npm i
     
 ## Usage: 
     
-Special instructions for usage: Nothing out of the ordinary
+Special instructions for usage: Nothing
     
 ## License: 
     
@@ -35,4 +38,12 @@ Be sure to run the following test(s): npm test
     
 ## Questions: 
     
-If you have any questions, please reach out to BrianSoldani @ briansoldani@gmail.com
+If you have any questions, please reach out to BrianSoldani @ brainsoldani@gmail.com
+
+## Link to deployed application: 
+
+doesn matter
+
+## Image of deployed application:
+
+![](/assets/images/portfolio.jpg)
