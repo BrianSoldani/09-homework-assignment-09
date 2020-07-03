@@ -24,7 +24,7 @@ To install the needed dependencies, please run the following command: npm i
     
 Special instructions for usage: Nothing
     
-## License: https://img.shields.io/github/license/BrianSoldani/09-homework-assignment-09
+## License: ![MIT Badge](https://img.shields.io/github/license/BrianSoldani/09-homework-assignment-09)
     
 This project is licensed under the MIT license(s).
     
