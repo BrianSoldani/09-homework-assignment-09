@@ -46,4 +46,4 @@ yahoo.com
 
 ## Image:
 
-![](/Users/briansoldani/code/09-homework-assignment-09/Develop/assets/images/portfolio.jpg)
+![](assets/images/portfolio.jpg)
