@@ -57,40 +57,40 @@ inquirer
     
 # Description: 
 
-    ${response.description}
+${response.description}
     
 # Table of Contents: 
 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contributing](#contributing)
-    * [License](#license)
-    * [Tests](#tests)
-    * [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
+* [Tests](#tests)
+* [Questions](#questions)
     
 ## Installation: 
 
-    To install the needed dependencies, please run the following command: ${response.installation}
+To install the needed dependencies, please run the following command: ${response.installation}
     
 ## Usage: 
     
-    Special instructions for usage: ${response.usage}
+Special instructions for usage: ${response.usage}
     
 ## License: 
     
-    This project is licensed under the ${response.license} license(s).
+This project is licensed under the ${response.license} license(s).
     
 ## Contributing: 
 
-    ${response.contributing}
+${response.contributing}
     
 ## Tests: 
 
-    Be sure to run the following test(s): ${response.tests}
+Be sure to run the following test(s): ${response.tests}
     
 ## Questions: 
     
-    If you have any questions, please reach out to ${response.username} <a href="mailto:briansoldani@gmail.com" target="_blank" role="button">${response.email}</a>`
+If you have any questions, please reach out to ${response.username} @ ${response.email}`
 
     fs.writeFile("README.md", newFile, function (err) {
       if (err) {
