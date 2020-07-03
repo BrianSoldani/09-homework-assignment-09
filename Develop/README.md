@@ -38,7 +38,7 @@ Be sure to run the following test(s): npm test
     
 ## Questions: 
     
-If you have any questions, please reach out to ![GitHub Logo](:speech_balloon:) **BrianSoldani** @ briansoldani@gmail.com https://github.com/
+If you have any questions, please reach out to ![](:speech_balloon:) **https://github.com/BrianSoldani** @ briansoldani@gmail.com https://github.com/
 
 ## Link: 
 
@@ -46,4 +46,4 @@ homework.com
 
 ## Image:
 
-![](assets/images/portfolio.jpg)
+![Image](assets/images/portfolio.jpg)
