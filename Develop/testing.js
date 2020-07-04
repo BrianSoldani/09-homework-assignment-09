@@ -1,7 +1,16 @@
-
+// Define const to be used for application
 const fs = require("fs");
 const inquirer = require("inquirer");
 
+// Enter Map keys and values to be used for list selections and choices 
+const licenseMD = new Map([
+["MIT", "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"],
+["Apache 2.0", "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"],
+["Boost", "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"],
+["BSD 3", "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"],
+["BSD 2", "[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)"],
+["Mozilla", "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"]
+]);
 
 inquirer
   .prompt([
@@ -17,7 +26,7 @@ inquirer
       },
       {
         type: "input",
-        message: "What is your project title?",
+        message: "What is the project title?",
         name: "title"
       },
       {
@@ -26,29 +35,40 @@ inquirer
         name: "description"
       },
       {
-        type: "input",
+        type: "list",
         message: "Which license do you require?",
-        name: "license"
+        name: "license",
+        choices: [...licenseMD.keys()]
       },
       {
         type: "input",
         message: "What command(s) should be run to install dependencies?",
-        name: "installation"
+        name: "installation",
+        default: "npm i"
       },
       {
         type: "input",
         message: "What command(s) should be run for testing?",
-        name: "tests"
+        name: "tests",
+        default: "npm test"
       },
       {
         type: "input",
         message: "What should the user know about using the repo?",
-        name: "usage"
+        name: "usage",
+        default: "There is nothing special or unique about this repo."
+      },
+      {
+        type: "input",
+        message: "What technologies are featured in this project?",
+        name: "tech",
+        default: "HTML5, CSS3, Javascript, jQuery"
       },
       {
         type: "input",
         message: "What should the user know about contributing the repo?",
-        name: "contributing"
+        name: "contributing",
+        default: "There are no special requirements for using this repo."
       }, 
       {
         type: "input",
@@ -65,17 +85,20 @@ inquirer
     const newFile = 
     `# ${response.title}
     
-# Description: 
+## Description: 
+
+${licenseMD.get(response.license)}
 
 ${response.description}
     
-# Table of Contents: 
+## Table of Contents: 
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
 * [License](#license)
+* [Installation](#installation)
 * [Tests](#tests)
+* [Usage](#usage)
+* [Technology Used](#technology-used)
+* [Contributing](#contributing)
 * [Questions](#questions)
 * [Link](#link)
 * [Image](#image)
@@ -88,10 +111,14 @@ To install the needed dependencies, please run the following command: ${response
 ## Usage: 
     
 Special instructions for usage: ${response.usage}
+
+## Technology Used: 
+    
+Special instructions for usage: ${response.tech}
     
 ## License: 
     
-This project is licensed under the ${response.license} license(s).
+This project is licensed under the ${response.license} license.
     
 ## Contributing: 
 
@@ -103,7 +130,7 @@ Be sure to run the following test(s): ${response.tests}
     
 ## Questions: 
     
-If you have any questions, please reach out to **${response.username}** @ ${response.email}
+If you have any questions, please reach out to [${response.username}](https://github.com/${response.username}) @ ${response.email}.
 
 ## Link: 
 
@@ -122,7 +149,3 @@ ${response.link}
     });
     console.log(response);
   });
-
-
-
-
