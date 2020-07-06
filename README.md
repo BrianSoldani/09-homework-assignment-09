@@ -37,10 +37,10 @@ https://drive.google.com/file/d/1svAbgYE_ACZcYuiM4I0NgMGu_Es-hfcd/view
 ### Images
 
 - Command Line Questions and answers<br>
-![ReadMe Generator](develop/assets/images/command.jpg) 
+![ReadMe Generator](/Develop/assets/images/command.jpg) 
 
 - Readme file<br>
-![ReadMe Generator](develop/assets/images/readme1.jpg) 
+![ReadMe Generator](/Develop/assets/images/readme1.jpg) 
 
 - Readme file (continued)<br>
-![ReadMe Generator](develop/assets/images/readme2.jpg) 
+![ReadMe Generator](/Develop/assets/images/readme2.jpg) 
