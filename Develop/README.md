@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This application generates a readme file.
+This generates a readme file.
     
 ## Table of Contents: 
 
@@ -29,7 +29,7 @@ Special instructions for usage: There is nothing special or unique about this re
 
 ## Technology Used: 
     
-Special instructions for usage: HTML5, CSS3, Javascript, jQuery
+Special instructions for usage: Javascript
     
 ## License: 
     
@@ -53,4 +53,4 @@ url.com
 
 ## Image:
 
-![](/assets/images/project1.jpg)
+![](assets/images/project1.jpg)
