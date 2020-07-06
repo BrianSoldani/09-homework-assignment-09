@@ -78,7 +78,7 @@ inquirer
       },
       {
         type: "input",
-        message: "Image path to the deployed application? (Example: assets/images/portfolio.jpg",
+        message: "Image path to the deployed application? (Example: assets/images/project1.jpg",
         name: "image"
       },   
   ])
@@ -147,8 +147,5 @@ ${response.link}
       if (err) {
         return console.log(err);
       }
-
-      console.log("This might have worked!!");
     });
-    console.log(response);
   });
