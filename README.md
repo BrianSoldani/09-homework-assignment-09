@@ -2,15 +2,18 @@
 
 ## Description
 
-My task was to create a command-line application that would allow a user to get started on it quickly and easily. The automatic and dynamic generation of a project README file would allow a project creator to spend more time working on finishing the project and less time creating a good README. The final application will need to be invoked with the following command: **node index.js**
-Javascript, Node.js, and ES6 were the primary technologies used for this application.
+My task was to create a command-line application that would allow a user to get started on it quickly and easily. The automatic and dynamic generation of a project README file would allow a project creator to spend more time working on finishing the project and less time creating a good README. The final application will need to be invoked with the following command: **node index.js**<br>
+
+Javascript, Node.js, and ES6 were the primary technologies used for this application.<br>
+This project is licensed under the MIT License.<br>
+Dependencies: [Inquirer package](https://www.npmjs.com/package/inquirer).<br>
 
 
 ### Project Details
 
 There were several requirements for this assignment to meet minimum viability. Here are the items specifically required as well as the additional items I've included in my application:
 
-- Command-lines that ask questions or give list choices to the user and accepts user input.
+- Command-lines that ask questions or give list choices to the user and accept user input.
 - Prompts that capture user information such as GitHub username and email address.
 - Additional prompts that capture items specific to the project, such as: Title, Description, Installation, Usage, Licenses, Contributing, and any Tests needed.
 - Answers are stored and a functioning Table of Contents is generated for the readme file.
@@ -22,7 +25,7 @@ There were several requirements for this assignment to meet minimum viability. H
 
 ### Results
 
-The final application performs as expected and meets the requirements given above. I've even included additional features for the final deployed URL of the application and the ability to submit an image for the deployed application. The user is given several default answers to help them build and include important pieces of the Readme file. Please view video walkthrough below.
+The final application performs as expected and meets the requirements given above. I've even included additional features for the final deployed URL of the application and the ability to submit an image for the deployed application. The user is given several default answers to help them build and include important pieces of the Readme file. Please view the video walkthrough below.
 
 ### Video Walk-through
 
