@@ -43,8 +43,4 @@ https://drive.google.com/file/d/1svAbgYE_ACZcYuiM4I0NgMGu_Es-hfcd/view
 ![ReadMe Generator](/Develop/assets/images/readme1.jpg) 
 
 - Readme file (continued)<br>
-<<<<<<< HEAD
 ![ReadMe Generator](/Develop/assets/images/readme2.jpg) 
-=======
-![ReadMe Generator](/Develop/assets/images/readme2.jpg) 
->>>>>>> 751d942899c8da18a489b39e8531ed290e946067
